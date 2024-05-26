@@ -1,0 +1,354 @@
+@import url("https://fonts.cdnfonts.com/css/switzer");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#root {
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Switzer", sans-serif;
+  --header--colour: #525aa0;
+  --gray-bg: #959595;
+  --gray-text: #d2d2d2;
+  --dark-text: #202229;
+  --white-text: #f8f8f8;
+  --green: #c7f4c2;
+  --yellow: #ffbe2e;
+  --purple: #a285d0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 .5rem;
+  margin: 0;
+}
+
+.filler:hover{
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+li {
+  margin: 0;
+}
+
+/* Hero */
+
+
+/* end of hero */
+
+/* Info Section */
+/* .infosection-header {
+  font-size: 2.3rem;
+}
+.card {
+  padding: 0.5rem 0;
+}
+.explore-info {
+  padding: 1rem 0;
+}
+.card-title {
+  font-size: 1.3rem;
+}
+.card-items {
+  color: var(--purple);
+  line-height: 1.6;
+}
+
+.card-list {
+  width: 1rem;
+  height: auto;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+.explore {
+  padding: 1rem;
+  background-color: var(--dark-text);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.card-look {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 80px;
+  height: 130px;
+  padding: 1rem;
+}
+.card-option {
+  padding: 1rem;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  max-height: 80px;
+}
+.info-img {
+  width: 100%;
+  height: 100%;
+}
+
+.infosectionimg {
+  width: 100%;
+}
+
+.info-card {
+  
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.info30 {
+  font-weight: bolder;
+}
+.info-more {
+  color: var(--dark-text);
+}
+.info-category-card {
+  font-size: 0.8rem;
+  color: var(--dark-text);
+  text-align: center;
+}
+.info-card-header {
+  text-align: left;
+  margin: 0;
+}
+
+.info-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  overflow: auto;
+}
+.infoSection {
+  background-color: #edefff;
+} */
+
+/* testimony section */
+/* .testimony {
+  color: #fff;
+  text-align: left;
+}
+.testimony-main {
+  background-color: var(--dark-text);
+}
+.testimony-container {
+  
+}
+
+.testimny-img {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.groove {
+  color: var(--purple);
+}
+.testimony-quote h2 {
+  font-size: 3rem;
+}
+.testimony-img {
+  height: auto;
+  vertical-align: middle;
+}
+.testimony-icon {
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 51px;
+  border-radius: 50%;
+  margin: .5rem;
+}
+
+.testimony-card {
+  display: flex;
+  align-items: center;
+  max-height: 180px;
+  gap: 5%;
+}
+.testimony-owner-image {
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* Learning Steps */
+
+/* .learning-steps {
+  text-align: left;
+}
+.learning-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.learning-card-full {
+  border: 1px solid var(--gray-text);
+  padding: 1rem;
+  margin: 0.2rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+.learning-img {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: var(--gray-bg);
+} */
+
+/* Start View */
+/* .sm-hidden{
+  display: none;
+  visibility: hidden;
+}
+.startcontent-title{
+  font-size: 1.8rem;
+  color: var(--dark-text);
+  margin-top: 0;
+}
+.start-first{
+  background-color: #EDEFFF;
+}
+
+.start-second{
+  background-color: #FDDD8B;
+}
+.start-third{
+  background-color: #F3F3F3;
+}
+.startlists{
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+.startcontent{
+  text-align: left;
+}
+.start-ff{
+  border: thin transparent solid;
+} */
+
+
+@media (min-width: 700px) {
+  .hero {
+    width: 100%;
+    max-width: 700px;
+  }
+  .hero-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .secondary-hero {
+    padding: 0 1rem;
+    border-radius: 1rem;
+  }
+  .hero-header {
+    font-size: 3rem;
+    text-align: center;
+  }
+  /* Info Section */
+  .infosection-header {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    max-width: 400px;
+  }
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .card-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-list {
+    margin-bottom: 0;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .infocategories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* testimony */
+  /* .testimony {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20%;
+  }
+  .testimony-quote {
+    max-width: 40%;
+  }
+  .testimony-quote h2 {
+    font-size: 4rem;
+  }
+
+  .testimony-owner {
+    max-width: 400px;
+  } */
+
+  /* .learning-steps {
+    max-width: 50%;
+    margin: 0;
+  }
+  .learning-header{
+    font-size: 3rem;
+
+  }
+  .learning-text{
+    font-size: 1.4rem;
+  } */
+
+  /* Start View */
+.sm-hidden{
+  display: inline;
+  visibility: visible;
+}
+.lg-hidden{
+  display: none;
+}
+.startlists{
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  max-height: 300px;
+  
+}
+.startlistno{
+  font-size: 3rem;
+  color: black;
+  padding: 1rem;
+}
+.startcontent{
+  max-width: 400px;
+}
+
+}

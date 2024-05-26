@@ -1,0 +1,39 @@
+.learning-steps {
+    text-align: left;
+  }
+  .learning-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .learning-card-full {
+    border: 1px solid var(--gray-text);
+    padding: 1rem;
+    margin: 0.2rem 0;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  .learning-img {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--gray-bg);
+  }
+  
+
+@media (min-width: 700px) {
+
+    .learning-steps {
+        max-width: 50%;
+        margin: 0;
+      }
+      .learning-header{
+        font-size: 3rem;
+    
+      }
+      .learning-text{
+        font-size: 1.4rem;
+      }
+    
+}
